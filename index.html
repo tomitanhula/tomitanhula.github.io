@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fi"> 
+  <head>
+    <title>Tomi Tanhula</title>
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&family=Roboto+Slab:wght@600&display=swap">
+    <script src="https://kit.fontawesome.com/9e5225b9d2.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tomi Tanhula portfolio">
+    <meta name="keywords" content="HTML, CSS, Tietojenkäsittely tradenomi, Tietojenkäsittely">
+    <meta name="author" content="Tomi Tanhula">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <!-- Navi alkaa -->
+    <nav id="navbar">
+      <nav class="buttons">
+        <ul class="nav ul_float">
+          <li><a href="#tomi">Tomi Tanhula</a></li>
+        </ul>
+          
+        <ul class="nav">
+          <li><a href="#työhistoria">Työhistoria</a></li><li><a href="#portfolio">Portfolio</a></li><li><a href="#harrastukset">Harrastukset</a></li>
+        </ul>
+      </nav>
+    </nav>
+    <script>
+      window.onscroll = function() {myFunction()};
+
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop + 1;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+    <!-- Navi loppuu -->
+
+    <!-- Header alkaa -->
+    <header id="tomi">
+      <!-- Background photo:"Kyle Canyon Road - IMG_1215" by Nicola since 1972 https://www.flickr.com/photos/15216811@N06/6023029145 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse. -->
+      <div class="heading_container">
+        <h1 class="roboto_slab">Tomi Tanhula</h1>
+        <h2 class="roboto_condenced">Matkalla tietojenkäsittelyn tradenomiksi</h2>
+      </div>
+    </header>
+    <!-- Header loppuu -->
+    <!-- Tomi Tanhula alkaa -->
+    <article>
+      <h2 class="display_none">Otsikko</h2>
+      <figure><img class="omakuva" src="images/tomi_omakuva_web.jpg" alt="Tomi Tanhula omakuva" title="Tomi Tanhula"></figure>
+      <section class="kappale">
+        <h2 class="display_none">Otsikko</h2>
+        <p>Hei,<br><br>olen Tomi Tanhula, 39-vuotias datanomi Joensuusta. Tällä hetkellä opiskelen <a target="_blank" href="http://www.haaga-helia.fi">Haaga-Heliassa</a> <strong>tietojenkäsittelyn tradenomiksi.</strong><br><br>Nykyisin työskentelen <i>ICT-tukihenkilönä</i> Pohjois-Karjalan koulutuskuntayhtymä Riverialla Joensuussa. Työnkuvaani kuuluu mm. HelpDesk ja lähituki. Työskentelen kahdessa koulutusyksikössä ICT-tukihenkilönä ja toisen koulutusyksikön ICT-tuesta vastaan yksin.<br><br><i>Tietojenkäsittelyala</i> on mielenkiintoinen ja halu oppia uutta sai hakeutumaan tähän koulutukseen.<br><br>Tällä hetkellä minua kiinnostavat eniten kyberturvallisuus ja tietoverkot.</p>
+      </section>
+    </article>
+    <!-- Tomi Tanhula loppuu -->
+    <!-- Työhistoria alkaa -->
+    <section>
+      <a id="työhistoria" class="ankkuri"></a>
+      <!-- Background photo:"Kyle Canyon Road - IMG_1215" by Nicola since 1972 https://www.flickr.com/photos/15216811@N06/6023029145 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse. -->
+      <div class="otsikko_container">
+        <h2 class="roboto_condenced varjo">Työhistoria</h2>
+      </div>
+      <article>
+        <div class="timeline">
+          <div class="container left">
+            <div class="content_aikajana">
+              <h2>4/2021-Nykyinen</h2>
+              <br>
+              <p>Pohjois-Karjalan koulutuskuntayhtymä Riveria, ICT-tukihenkilö<br><br>Työnkuvaani kuuluu ohjelmistojen asentaminen ja päivittäminen, käyttöjärjestelmien asentaminen ja päivittäminen SCCM:n kautta, työasemien ja mobiili- ja oheislaitteiden asentaminen sekä niiden vianselvitys, leasingvaihdot ja laiterekisterin ylläpito, HelpDesk ja lähituki, AD:n käyttäjähallinta sekä erilaiset projektit.</p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content_aikajana">
+              <h2>3/2019-12/2019</h2>
+              <br>
+              <p>Pohjois-Karjalan sosiaali- ja terveyspalveluiden kuntayhtymä, järjestelmäasiantuntija<br><br> Työnkuvaani kuului radiologian tuotannonohjausjärjestelmän ylläpito ja käytöntuki, käyttökoulutusten pitäminen, ohjeiden teko ja dokumentointi, kehitystoimintaan osallistuminen ja lääkintälaitteiden tietotekniset asiat.</p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content_aikajana">
+              <h2>12/2018-1/2019</h2>
+              <br>
+              <p>Telia Inmics-Nebula Oy,<br>System Specialist<br><br>Työnkuvaani kuului asiakkaan työasemaympäristön laitevaihdot, käyttöjärjestelmien asentaminen ja laiterekisterin ylläpito.</p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content_aikajana">
+              <h2>2006-2018</h2>
+              <br>
+              <p>Lähihoitajan töitä yksityisissä hoitokodeissa<br><br>Työtehtäviini kuului mm. lääkkeiden jakoa, perushoitoa, kirjaamista ja viriketoimintaa. Lisäksi toimin tiiminvetäjänä noin vuoden ajan.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!-- Työhistoria loppuu -->
+    <!-- Portfolio alkaa -->
+    <section>
+      <a id="portfolio" class="ankkuri"></a>
+      <!-- Background photo:"Kyle Canyon Road - IMG_1215" by Nicola since 1972 https://www.flickr.com/photos/15216811@N06/6023029145 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse. -->
+      <div class="otsikko_container">
+        <h2 class="roboto_condenced varjo">Portfolio</h2>
+      </div>
+    </section>
+
+    <article>
+      <h2 class="display_none">Otsikko</h2>
+      <section class="kappale">
+        <h2 class="display_none">Otsikko</h2>
+        <p>Koulutus ja osaaminen:<br><br>Ensimmäiseltä ammatiltani olen lähihoitaja, joksi valmistuin vuonna 2006. Työskentelin alalla vuosina 2006-2018. Toimin työssäni myös tiiminvetäjänä. <br><br>Valmistuin tieto- ja viestintätekniikan perustutkinnosta datanomiksi alkuvuodesta 2019 ja jatkoin opiskeluja suorittaen tieto- ja viestintätekniikan ammattitutkinnon, josta valmistuin joulukuussa 2020.<br><br>Työllistyin jo opiskeluaikana ICT-alalle, Telia Inmics-Nebulalle System Specialistiksi, jossa työtehtävien pääpaino oli työasemien asentamisessa ja toimituksessa loppukäyttäjille.<br><br>Seuraavaksi siirryin järjestelmäasiantuntijaksi Siun Sotelle. Työtehtäväni oli ylläpitää radiologian toiminnanohjausjärjestelmää 12 kunnan alueella. Lisäksi työtehtäviin kuului dokumentointi, ohjeiden laatiminen, käyttökoulutukset ja radiologian lääkintälaitteiden tietotekninen puoli.<br><br>Nykyisin työskentelen Pohjois-Karjalan koulutuskuntayhtymä Riverialla ICT-tukihenkilönä, ja pääasiallisiin työtehtäviini kuuluvat mm. laiteasennukset ja elinkaarihallinta, ohjelmistojen asennus ja päivitys, sekä HelpDesk ja lähituki.<br><br>Keskeisimmät osaamisalueeni:<br><br></p>
+        <ul class="teksti_vaalea">
+          <li class="letter_spacing">HelpDesk ja lähituki</li>
+          <li class="letter_spacing">Laitteiden elinkaarihallinta</li>
+          <li class="letter_spacing">Asiakaspalvelu</li>
+          <li class="letter_spacing">Käyttöjärjestelmien ja ohjelmistojen asennus, päivittäminen ja ongelmanratkaisu</li>
+          <li class="letter_spacing">AD:n ja Azure AD:n käyttäjähallinta</li>
+          <li class="letter_spacing">AV-laitteet</li>
+          <li class="letter_spacing">Windows-käyttöjärjestelmät</li>
+          <li class="letter_spacing">Mobiililaitteet (Android ja iOS)</li>
+          <li class="letter_spacing">Ruckus vierailijatunnusten hallinta</li>
+          <li class="letter_spacing">Dokumentointi ja ohjeiden laatiminen</li>
+          <li class="letter_spacing">Käyttökoulutusten pitäminen</li>
+          <li class="letter_spacing">Pacs (Picture Archiving and Communication System) ja Dicom (Digital Imaging and Communications in Medicine)</li>
+        </ul> 
+        <br>
+        <br>
+        <p>Muu koulutus:</p>
+        <br>
+        <br>
+        <ul class="teksti_vaalea">
+          <li>Tietokoneen käyttäjän AB-kortti</li>
+          <li>Hygieniapassi</li>
+        </ul>
+        <br>
+        <br>
+        <p>Kielitaito:</p>
+        <br>
+        <ul class="teksti_vaalea">
+          <li>Suomi: Äidinkieli</li>
+          <li>Englanti: Hyvä </li>
+          <li>Ruotsi: Perusteet </li>
+        </ul>
+      </section>
+    </article>
+    <!-- Portfolio loppuu -->
+    <!-- Harrastukset alkaa -->
+    <section>
+      <a id="harrastukset" class="ankkuri"></a>
+      <!-- Background photo:"Kyle Canyon Road - IMG_1215" by Nicola since 1972 https://www.flickr.com/photos/15216811@N06/6023029145 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse. -->
+      <div class="otsikko_container">
+        <h2 class="roboto_condenced varjo">Harrastukset</h2>
+      </div>
+    </section>
+    <article>
+      <h2 class="display_none">Otsikko</h2>
+      <section class="kappale_harrastus">
+        <div class="kortti">
+          <img class="kuva" src="images/trek_puussa.jpg" alt="maastopyörä puussa">
+          <br>
+          <br>
+          <h2 class="h2_kortti">Maastopyöräily</h2>
+          <br>
+          <p class="p_kortti"> Maastopyöräilyä olen harrastanut vuodesta 2012 alkaen. Omistan vuosimallin 2011 jäykkäperäisen<br>Trek 8000-maastopyörän.<br><br>Maastopyöräily on hyvää vastapainoa työlleni, joka sisältää paljon sisätiloissa työskentelyä ja joinakin päivinä työpäivä menee lähes kokonaan tietokoneella työskennellessä.<br><br>Maastopyöräily on haastava ja tekninen laji, jossa oikean ajotekniikan oppiminen vie aikansa ja muutakin opeteltavaa riittää pitkäksi aikaa.<br><br>Maastopyöräilyn harrastamiseen liittyy myös pyörän kunnossapito ja tutuksi ovat tulleet niin renkaiden vaihtamiset kuin pyörän huolto ja pienimuotoiset korjaamisetkin.</p>
+        </div>
+        <div class="kortti">
+          <img class="kuva" src="images/les_paul.JPG" alt="kitara">
+          <br>
+          <br>
+          <h2 class="h2_kortti">Kitaransoitto</h2>
+          <br>
+          <p class="p_kortti">Kitaransoiton aloitin 12-vuotiaana. Aluksi soitin nylonkielistä ja hieman myöhemmin myös teräskielistä akustista kitaraa.<br><br>Ensimmäisen sähkökitarani sain vanhemmiltani 15-vuotislahjaksi. Kitaransoiton alkeet minulle opetti isäni, lisäksi kävin koulussa soittotunneilla ja olen opiskellut soittamista myös itsenäisesti.<br><br>Välillä harrastuksessa on ollut hiljaisempia aikoja muiden kiireiden vuoksi, mutta aina olen kuitenkin kitaransoiton pariin palannut.<br><br> Tällä hetkellä en soita missään bändissä, mutta mielenkiintoa bändisoittoon on edelleen.  Nykyisin omistan useita kitaroita.</p>
+        </div>
+        <div class="kortti_oikealle">
+          <img class="kuva" src="images/koira.JPG" alt="koira">
+          <br>
+          <br>
+          <h2 class="h2_kortti">Lemmikit</h2>
+          <br>
+          <p class="p_kortti">Olen aina pitänyt eläimistä ja minulla onkin kultainennoutaja ja kaksi kissaa.<br><br>Kultainennoutaja viihtyy ulkona, ja koiran kanssa lenkkeileminen kuuluukin päivittäisiin rutiineihin.<br><br>Kissat ovat sisäkissoja, joista toinen ulkoilee kesällä päivittäin valjaissa, mutta toinen pysyttelee enemmän sisätiloissa.</p>
+        </div>
+      </section>
+    </article>
+    <!-- Harrastukset loppuu -->
+    <!-- Footer alkaa -->
+    <footer>
+      <address>Ota yhteyttä: bic003@myy.haaga-helia.fi</address>
+    </footer>
+    <!-- Footer loppuu -->
+  </body>
+</html>
